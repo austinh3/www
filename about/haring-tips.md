@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Haring Tips
-permalink: haring-tips
+permalink: /haring-tips/
 ---
 # Haring Tips
 ## Instructions for Hares setting trail

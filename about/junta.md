@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Junta
-permalink: junta
+permalink: /junta/
 ---
 # Junta
 

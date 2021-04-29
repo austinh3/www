@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Haring Expectaions
-permalink: haring-expectations
+permalink: /haring-expectations/
 ---
 # Haring Expectations
 

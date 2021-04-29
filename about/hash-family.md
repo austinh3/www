@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hash Family
-permalink: hash-family
+permalink: /hash-family/
 ---
 # Hash Family
 

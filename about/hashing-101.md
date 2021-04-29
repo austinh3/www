@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hashing 101
-permalink: hashing-101
+permalink: /hashing-101/
 ---
 # Hashing 101
 

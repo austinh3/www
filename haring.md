@@ -1,5 +1,6 @@
 ---
 title: Haring
+permalink: /haring/
 ---
 # Want to Have Hounds Chasing You?
 Haring a trail is the thing that binds us together as a kennel. Without mass participation in haring, we would not have trail every week. Or it’d be a JM death march half the time. Hares create the weekly adventure we share together as hashers.

@@ -2,6 +2,12 @@
 layout: default
 title: About
 permalink: /about/
+subtitle: stuff about us
+image: assets/images/austin-h3-logo.gif
+description: About Austin H3, where to find out about our junta, haring trails and running trails.
+hero_image: /path/to/hero-image.jpg
+hero_height: is-fullheight
+
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

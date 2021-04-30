@@ -48,6 +48,7 @@ defaults:
       type: "posts" 
     values:
       layout: "default"
+      author: "Lady Bird's Johnson"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+{% if page.menubar or page.menubar_toc %}
+{% assign has_left_sidebar = true %}
+{% endif %}
+
+{% if page.show_sidebar and has_left_sidebar  %}
+{% assign content_width = 'is-4' %}
+{% elsif page.show_sidebar or has_left_sidebar %}
+{% assign content_width = 'is-8' %}
+{% else %}
+{% assign content_width = 'is-12' %}
+{% endif %}
+
 <html
  lang="en">
   <head>

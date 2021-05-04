@@ -2,6 +2,21 @@
   link: /
 - name: Calendar
   link: /calendar/
+- name: About
+  link: /about/
+  dropdown:
+    - name: Junta
+      link: /junta/
+    - name: By-laws
+      link: /by-laws/
+    - name: Haring Expectations
+      link: /haring-expectations/
+    - name: Haring Tips
+      link: /haring-tips/
+    - name: Hash Family
+      link: /hash-family/
+    - name: Hashing 101
+      link: /hashing-101/
 - name: Haring
   link: /haring/
 - name: Hash Hymnal

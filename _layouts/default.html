@@ -12,40 +12,9 @@
 {% endif %}
 
 <html
- lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content=#ffffff>
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicons/site.webmanifest">
-    <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-    
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
-    
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>{{ page.title }}</title>
-<meta property="og:title" content="Home" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="A drinking club with a running problem doing trails around Austin, Texas on Sunday afternoons. Since 1985. Blood, Sweat and Beers. On on!" />
-<meta property="og:description" content="A drinking club with a running problem doing trails around Austin, Texas on Sunday afternoons. Since 1985. Blood, Sweat and Beers. On on!" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Austin H3" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Home" />
-<script type="application/ld+json">
-{"description":"A drinking club with a running problem doing trails around Austin, Texas on Sunday afternoons. Since 1985. Blood, Sweat and Beers. On on!","headline":"Home","url":"http://localhost:4000/","@type":"WebSite","name":"Austin H3","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<!-- head scripts --></head>
-
+lang="{{ site.lang | default: 'en' }}"
+{% if site.fixed_navbar %}class="has-navbar-fixed-{{ site.fixed_navbar }}"{% endif %}>
+ {% include head.html %}
   <body>
 <section class="hero  is-medium  is-bold is-primary" >
     <div class="hero-body ">

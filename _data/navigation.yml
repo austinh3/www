@@ -2,3 +2,11 @@
   link: /
 - name: Calendar
   link: /calendar/
+- name: Haring
+  link: /haring/
+- name: Hash Hymnal
+  link: /hash-hymnal/
+- name: Stats & Maps
+  link: /stats-maps/
+- name: Store
+  link: /store/

@@ -27,7 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
   username: austin_h3
-github_username:  austinh3
+github_username: austinh3
 
 # Build settings
 
@@ -42,14 +42,16 @@ defaults:
       path: "" 
       type: "pages" 
     values:
-      layout: "default"
+      show_sidebar: true
   -
     scope:
       path: "" 
       type: "posts" 
     values:
-      layout: "default"
       author: "Lady Bird's Johnson"
+      layout: post
+      show_sidebar: true
+
 paginate: 5
 paginate_path: "/blog/page:num"
 

@@ -9,5 +9,9 @@ Using [Bulma Clean Theme](https://github.com/chrisrhymes/bulma-clean-theme) from
 
 Set up [your dev environment](SET_UP_ENV.MD) SET_UP_ENV.MD
 
-## Let's call it version 0.001
+## Change log
+### 0.01
+Successfull manual deployment to Firebase. https://next-gen-web-site.web.app/
+
+### Let's call it version 0.001
 First milestone reached: a basic rendition in my development environment of the static content of the site, with header, navigation, footer and a way to customize the CSS in place. 

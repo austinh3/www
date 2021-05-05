@@ -37,8 +37,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-collections:
-  authors: true
+# collections:
+#   authors: true
 
 defaults:
   -
@@ -55,8 +55,8 @@ defaults:
     values:
       layout: post
       show_sidebar: true
-  - 
-   scope:
+  -
+    scope:
       path: ""
       type: "authors"
     values:

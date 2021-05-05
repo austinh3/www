@@ -2,6 +2,7 @@
 layout: page
 title: Haring Tips
 permalink: /haring-tips/
+show_sidebar: false
 ---
 # Haring Tips
 ## Instructions for Hares setting trail

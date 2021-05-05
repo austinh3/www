@@ -2,6 +2,7 @@
 layout: default
 title: By-laws
 permalink: /by-laws/
+show_sidebar: false
 ---
 # By-Laws
 

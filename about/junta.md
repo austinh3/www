@@ -2,6 +2,7 @@
 layout: page
 title: Junta
 permalink: /junta/
+show_sidebar: false
 ---
 # Junta
 

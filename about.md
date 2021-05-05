@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: /about/
+show_sidebar: false
 ---
 # About page
 

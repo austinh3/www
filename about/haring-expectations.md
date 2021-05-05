@@ -2,6 +2,7 @@
 layout: page
 title: Haring Expectaions
 permalink: /haring-expectations/
+show_sidebar: false
 ---
 # Haring Expectations
 

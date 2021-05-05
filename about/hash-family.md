@@ -2,6 +2,7 @@
 layout: page
 title: Hash Family
 permalink: /hash-family/
+show_sidebar: false
 ---
 # Hash Family
 

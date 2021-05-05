@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 permalink: /privacy-policy/
+show_sidebar: false
 ---
 # Privacy Policy
 ## Who we are

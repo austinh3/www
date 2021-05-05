@@ -1,6 +1,7 @@
 ---
 title: Calendar
 permalink: /calendar/
+show_sidebar: false
 ---
 # Calendar
 This is an integrated Austin-area calendar that shows hash events from the following kennels

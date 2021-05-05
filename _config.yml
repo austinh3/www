@@ -42,6 +42,7 @@ defaults:
       path: "" 
       type: "pages" 
     values:
+      layout: page
       show_sidebar: true
   -
     scope:

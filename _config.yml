@@ -29,12 +29,16 @@ twitter:
   username: austin_h3
 github_username: austinh3
 
+
 # Build settings
 
 theme: bulma-clean-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+collections:
+  authors: true
 
 defaults:
   -
@@ -49,9 +53,14 @@ defaults:
       path: "" 
       type: "posts" 
     values:
-      author: "Lady Bird's Johnson"
       layout: post
       show_sidebar: true
+  - 
+   scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
 
 paginate: 5
 paginate_path: "/blog/page:num"

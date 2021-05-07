@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 permalink: /
 title: Austin Hash House Harriers
 subtitle: Mud, Sweat and Beers

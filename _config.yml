@@ -40,6 +40,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+favicon: /assets/images/favicons/favicon.ico
+
 collections:
   authors:
     output: true

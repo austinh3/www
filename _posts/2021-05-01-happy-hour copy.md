@@ -1,6 +1,6 @@
 ---
 title:  "Hashy Hour @ the new Pint House Brewing"
-date:   2021-05-07 17:00:00 -0500
+date:   2021-05-01 17:00:00 -0500
 categories: hashy hour
 author: LBJ
 ---

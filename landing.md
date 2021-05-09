@@ -7,6 +7,7 @@ hero_link: /page-1/
 hero_link_text: Example Call To Action
 show_sidebar: false
 callouts: callouts
+permalink: /landing/
 ---
 
 ## General page content

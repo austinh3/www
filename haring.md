@@ -1,6 +1,5 @@
 ---
 title: Haring
-permalink: /haring/
 show_sidebar: false
 ---
 # Want to Have Hounds Chasing You?

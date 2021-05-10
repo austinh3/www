@@ -3,7 +3,6 @@ title: Page without sidebar
 subtitle: Demo page without the sidebar
 layout: page
 show_sidebar: false
-permalink: \page-2.html
 ---
 
 This is another sample page showing how a page can look without a sidebar. 

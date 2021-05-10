@@ -3,7 +3,6 @@ title: Page With Sidebar
 subtitle: A demo page with a sidebar
 layout: page
 show_sidebar: true
-permalink: \page-1.html
 ---
 
 This is a demo page showing the sidebar.

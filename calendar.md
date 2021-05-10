@@ -1,6 +1,6 @@
 ---
 title: Calendar
-permalink: /calendar/
+
 show_sidebar: false
 ---
 # Calendar

@@ -1,6 +1,5 @@
 ---
 title: Hash Hymnal
-permalink: /hash-hymnal/
 show_sidebar: false
 ---
 # Hash hymnal

@@ -17,15 +17,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+lang: en
 title: Austin H3
+tagline: Mud, Sweat & Beers
 email: webmaster@austinh3.org
-description: >- # this means to ignore newlines until "baseurl:"
-  A drinking club with a running problem doing trails around Austin, Texas on Sunday afternoons.
-  Since 1985. Blood, Sweat and Beers. On on!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+description: >- # this means to ignore newlines until "baseurl:"
+  A drinking club with a running problem doing trails around Austin, Texas on Sunday afternoons.
+  Since 1985. Blood, Sweat and Beers. On on!
+permalink: pretty
 google_analytics: G-C607F69J61
 
 twitter:

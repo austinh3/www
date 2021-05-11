@@ -1,6 +1,6 @@
 ---
 title:  "Wanksgiving's Trail"
-date:   2021-05-07 14:00:00 -0500
+date:   2021-05-09 14:00:00 -0500
 categories: AH3 Trail
 author: LBJ
 ---

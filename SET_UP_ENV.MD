@@ -70,3 +70,7 @@ Confirm:
 ```
 bundle exec jekyll serve --livereload
 ```
+Deploy:
+'''
+firebase deploy --only hosting
+'''

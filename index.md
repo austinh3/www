@@ -8,4 +8,4 @@ hero_image: /assets/images/hero-harehounds.jpg
 hero_darken: true
 show_sidebar: true
 ---
-# Hello World!
+{% include latest-posts.html %}

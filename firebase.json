@@ -7,7 +7,6 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "target": "next-gen-web-site",
     "public": "_site",
     "ignore": [
       "firebase.json",

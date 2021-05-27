@@ -7,15 +7,16 @@ subtitle: Propose your trial deets
 ---
 {% capture my_include %}{% include haring-1.md %}{% endcapture %}
 {{ my_include | markdownify }}
-
-<div class="field">
-    <label class="label">Hash Name</label>
+<form id="hare-form">
+  <p>Enter your hash name or "Just MyFirstName." As the hare who is booking the event, you will be considered the 'primary hare.'</p>
+  <div class="field">
+    <label for="hname" class="label">Hash Name</label>
     <div class="control">
-      <input class="input" type="text" placeholder="Enter Hash name">
+      <input class="input" type="text" placeholder="Enter Hash name"id="hname" name="entry.1040064938" required>>
     </div>
   </div>
-  <p>Enter your hash name or "Just MyFirstName." As the hare who is booking the event, you will be considered the 'primary hare.'</p>
-  
+<!--adding stuff below here-->
+  <p>We need your e-mail to send you information and expectations as a hare.</p>
   <div class="field">
     <label class="label">Email</label>
     <div class="control has-icons-left has-icons-right">
@@ -29,8 +30,7 @@ subtitle: Propose your trial deets
     </div>
     <p class="help is-danger">This email is invalid. Please fix it so we reach you.</p>
   </div>
-  <p>We need your e-mail to send you information and expectations as a hare.</p>
-
+<!--adding stuff above here-->
   <div class="field">
     <label class="label">Co-Hare's Name</label>
     <div class="control">
@@ -105,3 +105,6 @@ subtitle: Propose your trial deets
       <button class="button is-link is-light">Never mind</button>
     </div>
   </div>
+</form>
+<div id="form-success">
+</div>  

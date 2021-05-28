@@ -68,19 +68,18 @@ bundle exec jekyll serve \-\-livereload
         
 
 Change extensions from .markdown to .md
-Edit index.md to include 
+Edit index.md to include: 
 
-        
-\---
+---
 layout: page
 title: Home
 permalink: /
-\---
+---
 
 \# Hello World!
         
 
-Confirm
+Confirm:
 
         
 bundle exec jekyll serve --livereload

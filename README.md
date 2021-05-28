@@ -7,7 +7,7 @@ Site created in Jekyll.
 
 Using [Bulma Clean Theme](https://github.com/chrisrhymes/bulma-clean-theme) from Chris Rhymes.
 
-Set up [your dev environment](SET_UP_ENV.MD) SET_UP_ENV.MD
+Set up [your dev environment](DEVELOPMENT.MD) DEVELOPMENT.MD
 
 ## Change log
 ### 0.2.0

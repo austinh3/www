@@ -17,10 +17,10 @@ subtitle: Propose your trial deets
   </div>
 
   <div class="field">
-    <label for="email" class="label">Email</label>
+    <label for="your email" class="label">Email</label>
     <p>We need your e-mail to send you information and expectations as a hare.</p>
     <div class="control has-icons-left has-icons-right">
-      <input class="input is-danger" type="email" placeholder="Enter email" value="hasher@" id="email" name="entry.341411850" required aria-required="true">
+      <input class="input is-danger" type="email" placeholder="Enter email" value="hasher@" id="your email" name="entry.341411850" required aria-required="true">
       <span class="icon is-small is-left">
         <i class="fas fa-envelope"></i>
       </span>
@@ -32,10 +32,10 @@ subtitle: Propose your trial deets
   </div>
 
   <div class="field">
-    <label class="label">Co-Hare's Name</label>
+    <label for="co-hare" class="label">Co-Hare's Name</label>
     <p>If you have not hashed in Austin before, you need an Austin-based sponsor. Please list that person here. And or any co-hares you have.</p>
     <div class="control">
-      <input class="input" type="text" placeholder="Enter Co-hare's name">
+      <input class="input" type="text" placeholder="Enter Co-hare's name" id="co-hare">
     </div>
   </div>
 
@@ -60,7 +60,7 @@ subtitle: Propose your trial deets
   </div>
 
   <div class="field">
-    <label class="label">Hash Time</label>
+    <label for="hash time" class="label">Hash Time</label>
     <p>This is the time you want to post on the calendar as the meeting time. Typically the pack will be let loose 30 mins later after chalk talk. You can change this later but please provide an estimate.</p>
   </div>
   </div>
@@ -77,40 +77,37 @@ subtitle: Propose your trial deets
     </div>  
   </div>
     <div class="field">
-      <label class="label">AM-PM</label>
+      <label for="AM/PM" class="label">AM-PM</label>
       <div class="control">
-        <select aria-label="AM/PM">
+        <select id="AM/PM" aria-label="AM/PM">
           <option value="am">AM</option>
           <option value="pm" selected="selected">PM</option>
       </select> 
       </div>
    </div>
-<!--adding stuff below here-->
 
   <div class="field">
-    <label class="label">Start Location</label>
+    <label for="hash start" class="label">Start Location</label>
+    <p>Enter an address, or leave blank if you don't know yet. Don't say "Such & Such Park". We need a street address on your start location in order to communicate it clearly to everyone and their GPS systems.</p>
     <div class="control">
-      <textarea class="textarea" placeholder="Street no, street name, city, zip, etc."></textarea>
+      <textarea class="textarea" placeholder="Street no, street name, city, zip, etc." id="hash start" name="entry.855650909"></textarea>
     </div>
   </div>
-<br>
-  <p>Enter an address, or leave blank if you don't know yet. Don't say "Such & Such Park". We need a street address on your start location in order to communicate it clearly to everyone and their GPS systems.</p>
-  
+  <p>If you know what you want to say about your trail in the calendar event, put it here. If it's far in the future and you don't know, it's ok to leave it blank.</p> 
   <div class="field">
-    <label class="label">Hash Details</label>
+    <label for="deets" class="label">Hash Details</label>
     <div class="control">
-      <textarea class="textarea" placeholder="Stuff to brag about your trail."></textarea>
+      <textarea class="textarea" placeholder="Stuff to brag about your trail."id="deets" name="entry.1610966465"></textarea>
     </div>
   </div>
-<br>
-  <p>If you know what you want to say about your trail in the calendar event, put it here. If it's far in the future and you don't know, it's ok to leave it blank.</p>
+
   <div class="field">
-    <label class="label">Question or Comments</label>
+    <label for="JM questions" class="label">Question or Comments</label>
+    <p>The Joint Masters of Austin H3 will review your request and put your date on the calendar if accepted. If you have any other questions or concerns, put them here.</p>
     <div class="control">
-      <textarea class="textarea" placeholder="Stuff on the down-low."></textarea>
+      <textarea class="textarea" placeholder="Stuff on the down-low." id="JM questions"></textarea>
     </div>
   </div>
-  <p>The Joint Masters of Austin H3 will review your request and put your date on the calendar if accepted. If you have any other questions or concerns, put them here.</p>
  
   <div class="field is-grouped">
     <div class="control">
@@ -122,4 +119,4 @@ subtitle: Propose your trial deets
   </div>
 </form>
 <div id="form-success">
-</div>  
+</div>

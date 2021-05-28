@@ -36,58 +36,55 @@ bundle exec jekyll serve
 * Add: gem "bulma-clean-theme"
 * ensure plugins are correct: 
 
-        
-\- group :jekyll_plugins do
+'''        
+- group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
 end
-        
+'''
 
 ### Edit  _config.yml
 
 * Add: theme: bulma-clean-theme
-* Add under plugins:  \- jekyll-seo-tag 
+* Add under plugins:  - jekyll-seo-tag 
 
 ### Install bulma-clean-theme
 
-        
+'''       
 gem install bulma-clean-theme
-        
+'''
 
 Gemfile.lock needs to be regenerated
-
-        
+'''       
 rm Gemfile.lock
 bundle update
-        
+'''        
 
-While edit locally, use 
-
-        
+While edit locally, use: 
+'''       
 bundle exec jekyll serve \-\-livereload
-        
-
+'''
 Change extensions from .markdown to .md
 Edit index.md to include: 
 
+'''
 ---
 layout: page
 title: Home
 permalink: /
 ---
 
-\# Hello World!
-        
+# Hello World!
+'''        
 
 Confirm:
-
-        
+'''        
 bundle exec jekyll serve --livereload
-        
+'''        
 ### Firebase
-        
+'''        
 firebase init hosting:github
-        
+'''        
 #### Edit Personal Access Token
 
 1. Log into Github, 
@@ -98,7 +95,8 @@ firebase init hosting:github
 6. Save settings.
 
 #### Manual Deploy
-        
+'''
 firebase deploy --only hosting
-        
+'''     
 ### Github Actions
+Work in progress. 

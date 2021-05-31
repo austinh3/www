@@ -103,9 +103,7 @@ firebase init hosting:github
 
 #### Manual Deploy
 
-'''
-firebase deploy --only hosting
-'''
+    firebase deploy --only hosting
 
 ### Github Actions
 Work in progress. 

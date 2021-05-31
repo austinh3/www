@@ -8,16 +8,14 @@
     
 ## Jekyll:
 
-'''
-cd sites 
-mkdir www
-cd www
-bundle init
-bundle add jekyll
-bundle exec jekyll new \-\-force \-\-skip-bundle \.
-bundle install
-gem install webrick
-'''
+    cd sites 
+    mkdir www
+    cd www
+    bundle init
+    bundle add jekyll
+    bundle exec jekyll new --force --skip-bundle .
+    bundle install
+    gem install webrick
 
 ## Edit Gemfile: 
 * remove: "~> 4.2.0" after gem "jekyll"
@@ -25,9 +23,7 @@ gem install webrick
 
 #### Test: 
 
-'''
-bundle exec jekyll serve
-'''
+    bundle exec jekyll serve
     
 ## Theme:
 
@@ -36,12 +32,10 @@ bundle exec jekyll serve
 * Add: gem "bulma-clean-theme"
 * ensure plugins are correct: 
 
-'''liquid
-- group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-seo-tag"
-end
-'''
+> - group :jekyll_plugins do
+>   gem "jekyll-feed"
+>   gem "jekyll-seo-tag"
+> end
 
 ### Edit  _config.yml
 
@@ -50,47 +44,35 @@ end
 
 ### Install bulma-clean-theme
 
-'''ruby
-gem install bulma-clean-theme
-'''
+    gem install bulma-clean-theme
 
 Gemfile.lock needs to be regenerated
 
-'''
-rm Gemfile.lock
-bundle update
-'''
+    rm Gemfile.lock
+    bundle update
 
 While edit locally, use: 
 
-'''
-bundle exec jekyll serve --livereload
-'''
+    bundle exec jekyll serve --livereload
 
 Change extensions from .markdown to .md
 Edit index.md to include: 
 
-'''liquid
----
-layout: page
-title: Home
-permalink: /
----
-'''
-
-'''markdown
-# Hello World!
-'''
+> ---
+> layout: page
+> title: Home
+> permalink: /
+> ---
+>
+> # Hello World!
 
 Confirm:
-'''
-bundle exec jekyll serve --livereload
-'''
+
+    bundle exec jekyll serve --livereload
+
 ### Firebase
 
-'''
-firebase init hosting:github
-'''
+    firebase init hosting:github
 
 #### Edit Personal Access Token
 

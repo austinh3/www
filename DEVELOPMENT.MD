@@ -32,11 +32,12 @@
 * Add: gem "bulma-clean-theme"
 * ensure plugins are correct: 
 
-> - group :jekyll_plugins do
->   gem "jekyll-feed"
->   gem "jekyll-seo-tag"
-> end
-
+```
+ - group :jekyll_plugins do
+   gem "jekyll-feed"
+   gem "jekyll-seo-tag"
+ end
+```
 ### Edit  _config.yml
 
 * Add: theme: bulma-clean-theme
@@ -58,13 +59,15 @@ While edit locally, use:
 Change extensions from .markdown to .md
 Edit index.md to include: 
 
-> ---
-> layout: page
-> title: Home
-> permalink: /
-> ---
->
-> # Hello World!
+```
+---
+layout: page
+title: Home
+permalink: /
+---
+
+# Hello World!
+```
 
 Confirm:
 
@@ -88,4 +91,4 @@ Confirm:
     firebase deploy --only hosting
 
 ### Github Actions
-Work in progress. 
+Work in progress. Possible solution: Standard Firebase and Jekyll marketplace actions blended together.

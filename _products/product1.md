@@ -53,8 +53,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
        * Instead use one of the strategies described in
        * https://stripe.com/docs/payments/checkout/fulfill-orders
        */
-      successUrl: 'https://example.com/success',
-      cancelUrl: 'https://example.com/canceled',
+      successUrl: 'http://localhost:4000/success',
+      cancelUrl: 'http://localhost:4000/canceled',
     })
     .then(function (result) {
       if (result.error) {

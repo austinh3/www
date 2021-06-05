@@ -1,9 +1,9 @@
 ---
 title: 5 Trails
-subtitle: Beer, water and snacks for 5 trails
+subtitle: For beer, snacks and such on 5 AH3 Sunday trails
 product_code: ABC123
 layout: product
-image: https://via.placeholder.com/640x480
+image: /assets/images/hashCash25.jpg
 price: $25
 features:
     - label: Great addition to any home
@@ -12,10 +12,9 @@ features:
       icon: fa-grin-stars
     - label: Available in multiple sizes
       icon: fa-fighter-jet
-rating: 3
+rating: 69
 ---
-
-This is the content about the product.
+(Selecting checkout takes you to the Stripe site to pay.) 
 
 <!-- Load Stripe.js on your website. -->
 <script src="https://js.stripe.com/v3"></script>

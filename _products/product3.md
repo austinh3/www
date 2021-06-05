@@ -1,9 +1,9 @@
 ---
 title: 7 Trails
-subtitle: RA's Choice!
+subtitle: RA's Choice! For beer, snacks and such on 7 AH3 Sunday trails
 product_code: ABC125
 layout: product
-image: https://via.placeholder.com/640x480
+image: /assets/images/hashCash35.jpg
 price: $35
 features:
     - label: Great addition to any home
@@ -11,11 +11,9 @@ features:
       icon: fa-grin-stars
     - label: Available in multiple sizes
       icon: fa-fighter-jet
-rating: 3
+rating: 69
 ---
-
-This is the content about the product.
-
+(Selecting checkout takes you to the Stripe site to pay.) 
 <!-- Load Stripe.js on your website. -->
 <script src="https://js.stripe.com/v3"></script>
 

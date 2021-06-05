@@ -1,11 +1,11 @@
 ---
-title: Hash Cash
-subtitle: For beer, snacks and such on AH3 Sunday trails
-description: This is a product description
+title: 1 trail Hash Cash (worst deal)
+subtitle: For beer, snacks and such on 1 AH3 Sunday trail
+description: One trail, $5 plus .45 service charge. 
 product_code: ABC124
 layout: product
-image: https://via.placeholder.com/640x480
-price: $5.00
+image: /assets/images/hashCash5.jpg
+price: $5
 features:
     - label: Great addition to any home
       icon: fa-location-arrow
@@ -13,12 +13,10 @@ features:
       icon: fa-grin-stars
     - label: Available in multiple sizes
       icon: fa-fighter-jet
-rating: 3
+rating: 69
 ---
-
-This is the content about the product.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+You pay the 45 cent service charge.
+(Selecting checkout takes you to the Stripe site to pay.) 
 <!-- Load Stripe.js on your website. -->
 <script src="https://js.stripe.com/v3"></script>
 

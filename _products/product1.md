@@ -51,8 +51,8 @@ You pay the 45 cent service charge.
        * Instead use one of the strategies described in
        * https://stripe.com/docs/payments/checkout/fulfill-orders
        */
-      successUrl: 'http://localhost:4000/success',
-      cancelUrl: 'http://localhost:4000/canceled',
+     successUrl: 'https://next-gen-web-site.web.app/success',
+     cancelUrl: 'https://next-gen-web-site.web.app/canceled',
     })
     .then(function (result) {
       if (result.error) {

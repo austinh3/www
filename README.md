@@ -10,6 +10,8 @@ Using [Bulma Clean Theme](https://github.com/chrisrhymes/bulma-clean-theme) from
 Set up [your dev environment](DEVELOPMENT.MD) DEVELOPMENT.MD
 
 ## Change log
+### 0.2.2
+added build steps to Github Action to deploy.
 ### 0.2.1
 Product page set up as minimum viable product. Works as front end to a Stripe payment.
 ### 0.2.0

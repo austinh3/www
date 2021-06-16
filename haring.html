@@ -35,15 +35,14 @@ subtitle: Propose your trial deets
     <label for="co-hare" class="label">Co-Hare's Name</label>
     <p>If you have not hashed in Austin before, you need an Austin-based sponsor. Please list that person here. And or any co-hares you have.</p>
     <div class="control">
-      <input class="input" type="text" placeholder="Enter Co-hare's name" id="co-hare" name="entry.955394723" required aria-required="true">
+      <input class="input" type="text" placeholder="Enter Co-hare's name" id="co-hare" name="entry.955394723">
     </div>
   </div>
-
-<p>Select the Sunday that you want to hare. <a href="/calendar/">Please check the calendar first</a> to make sure it's available.</p>
-   <div class="field">
-     <label for="date" class="label">Month/Day/Year</label>
+  <div class="field">
+    <label for="hash-date" class="label">Hash Date</label>
+      <p>Select the Sunday that you want to hare. <a href="/calendar/">Please check the calendar first</a> to make sure it's available.</p>
      <div class="control">
-       <input class="input" type="date" value="02/14/2021" min="08/01/2021" max="01/20/2025"  placeholder="MM/DD/YYYY" id="date" name="entry.149787360" required aria-required="true">
+       <input class="input" type="date" value="02/14/2021" min="08/01/2021" max="01/20/2025"  placeholder="MM/DD/YYYY" id="date" name="entry.149787360" required aria-required="true"> <small> Only Sundays.</small>
      </div>
    </div>
 <!-- <div class="field">
@@ -65,12 +64,19 @@ subtitle: Propose your trial deets
     </div>
   </div>
  -->
-  <div class="field">
-    <label for="hash-time" class="label">Hash Time</label>
-    <p>This is the time you want to post on the calendar as the meeting time. Typically the pack will be let loose 30 mins later after chalk talk. You can change this later but please provide an estimate.</p>
+ <div class="field">
+  <label for="hash-date" class="label">Hash Date</label>
+      <p>Provide the time you want to post as the meeting time. Typically the pack will be let loose 30 mins later after chalk talk. You can change this later but please provide an estimate.</p>
   </div>
-  </div>
   <div class="field">
+    <label for="time"class="label">Hash start time:</label>
+    <div class="control">
+      <input type="time" min="00:01" max="23:59" placeholder="HH:MM" id="time" name="entry.886048885" required aria-required="true"><small> Typically 4 hours before sunset.</small>
+    </div>
+  </div>
+  
+ <!--  
+   <div class="field">
     <label for="time.hour"class="label">Hours</label>
     <div class="control">
       <input type="number" maxlength="2" value="" min="0" max="12" step="1" placeholder="HH" id="time.hour" name="entry.886048885_hour" required aria-required="true"> <em>:</em>
@@ -91,7 +97,7 @@ subtitle: Propose your trial deets
       </select> 
       </div>
    </div>
-
+ -->
   <div class="field">
     <label for="hash-start" class="label">Start Location</label>
     <p>Enter an address, or leave blank if you don't know yet. Don't say "Such & Such Park". We need a street address on your start location in order to communicate it clearly to everyone and their GPS systems.</p>
@@ -111,7 +117,7 @@ subtitle: Propose your trial deets
     <label for="JM-questions" class="label">Question or Comments</label>
     <p>The Joint Masters of Austin H3 will review your request and put your date on the calendar if accepted. If you have any other questions or concerns, put them here.</p>
     <div class="control">
-      <textarea class="textarea" placeholder="Stuff on the down-low." id="JM-questions" name="entry.326879643" required aria-required="true"></textarea>
+      <textarea class="textarea" placeholder="Stuff on the down-low." id="JM-questions" name="entry.326879643"></textarea>
     </div>
   </div>
   <div class="control">

@@ -10,3 +10,5 @@ See the following information about haring at Austin H3:
 
 ## Let's Sign Up to Hare
 Use this form to sign up for haring at Austin H3. Then use it to update the Hareraisers with your deets for trail. Before filling out this form, check the calendar to see if the Sunday you want is available. Check your e-mail for more information after you sign up. And remember to come back here and use this form to update information so we can get it out to all the hounds.
+
+An asterisk * means that field is required. (Name, email, start date and start time.)

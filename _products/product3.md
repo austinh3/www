@@ -5,13 +5,6 @@ product_code: ABC125
 layout: product
 image: /assets/images/hashCash35.jpg
 price: $35
-features:
-    - label: Great addition to any home
-    - label: Comes in a range of styles
-      icon: fa-grin-stars
-    - label: Available in multiple sizes
-      icon: fa-fighter-jet
-rating: 69
 ---
 (Selecting checkout takes you to the Stripe site to pay.) 
 <!-- Load Stripe.js on your website. -->

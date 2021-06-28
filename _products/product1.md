@@ -6,14 +6,6 @@ product_code: ABC124
 layout: product
 image: /assets/images/hashCash5.jpg
 price: $5
-features:
-    - label: Great addition to any home
-      icon: fa-location-arrow
-    - label: Comes in a range of styles
-      icon: fa-grin-stars
-    - label: Available in multiple sizes
-      icon: fa-fighter-jet
-rating: 69
 ---
 You pay the 45 cent service charge.
 (Selecting checkout takes you to the Stripe site to pay.) 

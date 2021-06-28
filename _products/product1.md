@@ -7,6 +7,7 @@ image: /assets/images/hashCash5.jpg
 price: $5
 ---
 You pay the 45 cent service charge.
+
 (Selecting checkout takes you to the Stripe site to pay.) 
 <!-- Load Stripe.js on your website. -->
 <script src="https://js.stripe.com/v3"></script>

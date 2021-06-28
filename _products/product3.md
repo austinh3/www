@@ -1,7 +1,6 @@
 ---
 title: 7 Trails
 subtitle: RA's Choice! For beer, snacks and such on 7 AH3 Sunday trails
-product_code: ABC125
 layout: product
 image: /assets/images/hashCash35.jpg
 price: $35

@@ -2,7 +2,6 @@
 title: 1 trail Hash Cash (worst deal)
 subtitle: For beer, snacks and such on 1 AH3 Sunday trail
 description: One trail, $5 plus .45 service charge. 
-product_code: ABC124
 layout: product
 image: /assets/images/hashCash5.jpg
 price: $5

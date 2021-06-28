@@ -1,7 +1,6 @@
 ---
 title: 5 Trails
 subtitle: For beer, snacks and such on 5 AH3 Sunday trails
-product_code: ABC123
 layout: product
 image: /assets/images/hashCash25.jpg
 price: $25

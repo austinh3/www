@@ -20,7 +20,7 @@
 - name: Hash Hymnal
   link: /hash-hymnal/
 - name: Stats & Maps
-  link: /stats-maps/
+  link: https://storage.googleapis.com/next-gen-web-site.appspot.com/stats-maps/index.html
 - name: Store
   link: /store/
 - name: Blog

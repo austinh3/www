@@ -20,7 +20,7 @@
 - name: Hash Hymnal
   link: /hash-hymnal/
 - name: Stats & Maps
-  link: https://storage.googleapis.com/austin-h3-beer/index.html
+  link: https://austin-stats.h3.beer
 - name: Store
   link: /store/
 - name: Blog

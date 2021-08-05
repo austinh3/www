@@ -22,8 +22,8 @@ title: Austin H3
 tagline: Mud, Sweat & Beers
 email: webmaster@austinh3.org
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+url: "https://v2.austinh3.org" # the base hostname & protocol for your site, e.g. http://example.com
+# Be sure to change above base url when ready for switch to production.
 description: >- # this means to ignore newlines until "baseurl:"
   A drinking club with a running problem doing trails around Austin, Texas on Sunday afternoons.
   Since 1985. Blood, Sweat and Beers. On on!

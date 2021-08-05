@@ -7,6 +7,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "target": "front",
     "public": "_site",
     "ignore": [
       "firebase.json",
@@ -42,5 +43,8 @@
   },
   "remoteconfig": {
     "template": "remoteconfig.template.json"
+  },
+  "functions": {
+    "source": "functions"
   }
 }

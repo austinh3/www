@@ -11,13 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-    #added build step
-      - name: Build Jekyll
-        uses: jerryjvl/jekyll-build-action@v1
-
+      - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NEXT_GEN_WEB_SITE }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_STATS_6969 }}'
           channelId: live
-          projectId: next-gen-web-site
+          projectId: stats-6969

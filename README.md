@@ -10,8 +10,10 @@ Using [Bulma Clean Theme](https://github.com/chrisrhymes/bulma-clean-theme) from
 Set up [your dev environment](DEVELOPMENT.MD) DEVELOPMENT.MD
 
 ## Change log
+### 0.3.0
+Added the Stats & Maps app. Changed URL to v2.austinh3.org. Changed Firestore projects to combine resourses into 1 project. 
 ### 0.2.2
-added build steps to Github Action to deploy.
+Added build steps to Github Action to deploy.
 ### 0.2.1
 Product page set up as minimum viable product. Works as front end to a Stripe payment.
 ### 0.2.0

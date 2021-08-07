@@ -6,18 +6,23 @@
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
   },
-  "hosting": {
+    "storage": {
+    "rules": "storage.rules"
+  },
+
+  "hosting": [
+    {
     "target": "front",
-    "public": "_site",
+    "public": "_site"
+    },
+    {
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ]
-  },
-  "storage": {
-    "rules": "storage.rules"
-  },
+  }
+],
   "emulators": {
     "auth": {
       "port": 9099

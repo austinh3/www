@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll"
+gem "jekyll", ">= 3.9.1"
 # have to add gem WEBrick to livereload.
 gem "webrick"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -16,10 +16,10 @@ gem "webrick"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
-gem "bulma-clean-theme"
+gem "bulma-clean-theme", ">= 0.11.1"
 group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-seo-tag"
+  gem "jekyll-feed", ">= 0.15.1"
+  gem "jekyll-seo-tag", ">= 2.7.1"
 end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

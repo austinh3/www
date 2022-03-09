@@ -23,9 +23,9 @@
   link: https://stats.austinh3.org/
 - name: Store
   link: /store/
-- name: Blog
-  link: /blog/
-- name: Products
-  link: /products/
+# - name: Blog
+#  link: /blog/
+# - name: Products
+#   link: /products/
 - name: Boat Party
-  link: /bparty/
+  link: /boatparty/

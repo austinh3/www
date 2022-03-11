@@ -44,8 +44,8 @@ type="button"
        * Instead use one of the strategies described in
        * https://stripe.com/docs/payments/checkout/fulfill-orders
        */
-      successUrl: 'https://example.com/success',
-      cancelUrl: 'https://example.com/canceled',
+      successUrl: 'https://v2.austinh3.org/boatpartysuccess',
+      cancelUrl: 'https://v2.austinh3.org/canceled',
     })
     .then(function (result) {
       if (result.error) {

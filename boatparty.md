@@ -4,16 +4,15 @@ subtitle: Start here
 layout: page
 show_sidebar: false
 ---
-
-_When:
+**When:**
 
 Sunday June 5th at 3:30pm
 
-_What:
+**What:**
 
 AH3 Boat Party
 
-_Where:
+**Where:**
 
 Riviera Marina
 
@@ -21,11 +20,11 @@ Riviera Marina
 
 Leander TX 78641
 
-_Description:
+**Description:**
 
 Cum get wet at the AustinH3 boat party. Gimmies, food, and keg will be provided. DJ Giggle Bottoms will be pumping out the tunes.  
 
-_Cost:
+**Cost:**
 
 $49.99
 

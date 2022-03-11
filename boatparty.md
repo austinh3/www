@@ -5,7 +5,7 @@ layout: page
 show_sidebar: false
 ---
 
-When:
+_When:
 
 Sunday June 5th at 3:30pm
 
@@ -27,3 +27,5 @@ Cum get wet at the AustinH3 boat party. Gimmies, food, and keg will be provided.
 Cost:
 
 $49.99
+
+[Pay here:] (/pay/ "Go to the payment page.")

@@ -17,10 +17,9 @@ price: $49.99
 style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
 id="checkout-button-price_1KcDuHF5pJkDlNl6aM2P7nOD"
 role="link"
-type="button"
-
-> Checkout
-> </button>
+type="button">
+Checkout
+</button>
 
 <div id="error-message"></div>
 

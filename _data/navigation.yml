@@ -1,3 +1,5 @@
+- name: Boat Party
+  link: /boatparty/
 - name: Calendar
   link: /calendar/
 - name: About
@@ -23,9 +25,7 @@
   link: https://stats.austinh3.org/
 - name: Store
   link: /store/
-# - name: Blog
-#  link: /blog/
-# - name: Products
-#   link: /products/
-- name: Boat Party
-  link: /boatparty/
+- name: Blog
+  link: /blog/
+- name: Products
+  link: /products/

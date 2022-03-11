@@ -2,8 +2,8 @@
 title: Boat Party Rego
 subtitle: AH3 Boat Party June 5th
 layout: product
-image: /assets/images/hashCash25.jpg
-price: $25
+image: /assets/images/boatparty.png
+price: $49.99
 ---
 
 (Selecting checkout takes you to the Stripe site to pay.)

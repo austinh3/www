@@ -28,4 +28,4 @@ Cum get wet at the AustinH3 boat party. Gimmies, food, and keg will be provided.
 
 $49.99
 
-[Pay here:](/pay/)
+[Pay here:](/products/ "Select this link to go to the page to pay.")

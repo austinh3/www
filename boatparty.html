@@ -15,3 +15,85 @@ my_include | markdownify }}
     Kennel="entry.1900666966"
     https://docs.google.com/forms/d/e/1FAIpQLSdNM0xxa05T_MsR29tw82zPbnWjheLfIn06SsZ54P8W9mno0Q/formResponse
  -->
+
+<form id="boatpary-form">
+  <div class="field">
+    <label for="hash-name" class="label">Hash name *</label>
+    <p>
+      Enter your hash name or "Just (FirstName)." As the hare who is booking the
+      event, you will be considered the 'primary hare.'
+    </p>
+    <div class="control">
+      <input
+        class="input"
+        type="text"
+        placeholder="Enter hash name"
+        id="hash-name"
+        name="entry.1040064938"
+        required
+      />
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="your-email" class="label">Email *</label>
+    <p>
+      We need your e-mail to send you information and expectations as a hare.
+    </p>
+    <div class="control">
+      <input
+        class="input"
+        type="email"
+        placeholder="hasher@example.com"
+        id="your-email"
+        name="entry.341411850"
+        required
+      />
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="co-hare" class="label">Co-Hare's name</label>
+    <p>
+      If you have not hashed in Austin before, you need an Austin-based sponsor.
+      Please list that person here. And or any co-hares you have.
+    </p>
+    <div class="control">
+      <input
+        class="input"
+        type="text"
+        placeholder="Enter Co-hare's name"
+        id="co-hare"
+        name="entry.955394723"
+      />
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="hash-date" class="label">Hash date *</label>
+    <p>
+      Select the Sunday that you want to hare.
+      <a href="/calendar/">Please check the calendar first</a> to make sure it's
+      available.
+    </p>
+    <div class="control">
+      <input
+        class="input"
+        type="date"
+        min="08/01/2021"
+        max="01/20/2025"
+        placeholder="MM/DD/YYYY"
+        id="hash-date"
+        name="entry.149787360"
+        required
+      />
+      <small> Only Sundays.</small>
+    </div>
+  </div>
+  
+  <div class="control">
+    <button class="button is-link" type="submit">Sign me up!</button>
+  </div>
+</form>
+
+<div id="form-success"></div>

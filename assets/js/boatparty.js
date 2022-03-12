@@ -18,9 +18,7 @@ $("#boatparty-form").submit(function (e) {
       200: function (data) {
         //200 is a success code. it went through!
         //success
-        $("#form-success").text(
-          "On On! We got your entry. The JM's will reach out to you when they are done with their beer."
-        );
+        $("#form-success").text("On On! We got your deets. Now pay up.");
       },
       403: function (data) {
         //403 is when something went wrong and the submission didn't go through

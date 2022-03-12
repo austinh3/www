@@ -1,11 +1,11 @@
 //selector from your HTML form. This code is from: https://edcupaioli.com/blog/google-form-front-end/
-$('#hare-form').submit(function(e) {
+$('#boatparty-form').submit(function(e) {
   //prevent the form from submiting so we can post to the google form
   e.preventDefault();
   //AJAX request
   $.ajax({
     url: 'https://docs.google.com/forms/d/e/1FAIpQLSe4O3DJpe61FXMlnzmV48-jU8XMLS8kUhcvd8SF6DIoY6QpDA/formResponse',     //The public Google Form url, but replace /view with /formResponse
-    data: $('#hare-form').serialize(), //Nifty jquery function that gets all the input data 
+    data: $('#boatparty-form').serialize(), //Nifty jquery function that gets all the input data 
     type: 'POST', //tells ajax to post the data to the url
     dataType: "json", //the standard data type for most ajax requests
     statusCode: { //the status code from the POST request

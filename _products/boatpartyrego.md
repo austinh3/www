@@ -26,16 +26,16 @@ Checkout
 
 <script>
 (function() {
-  var stripe = Stripe('pk_test_3UDNMYAu7ExlFNyMrrUlZ9Ar');
+  var stripe = Stripe('pk_live_uDsxZWkDawiNBbQNNWAH1dy8');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1KgXeNIDia3Xld45lclpiq4g');
+  var checkoutButton = document.getElementById('checkout-button-price_1KgYqTIDia3Xld452swQ2DVq');
   checkoutButton.addEventListener('click', function () {
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1KgXeNIDia3Xld45lclpiq4g', quantity: 1}],
+      lineItems: [{price: 'price_1KgYqTIDia3Xld452swQ2DVq', quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling

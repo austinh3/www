@@ -43,8 +43,8 @@ Checkout
        * Instead use one of the strategies described in
        * https://stripe.com/docs/payments/checkout/fulfill-orders
        */
-      successUrl: 'http://austinh3.org/success',
-      cancelUrl: 'http://austinh3.org/canceled',
+      successUrl: 'https://v2.austinh3.org/success',
+      cancelUrl: 'https://v2.austinh3.org/canceled',
     })
     .then(function (result) {
       if (result.error) {
@@ -58,4 +58,4 @@ Checkout
     });
   });
 })();
-</script>   
+</script>

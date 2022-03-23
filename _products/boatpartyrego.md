@@ -15,7 +15,8 @@ price: $49.99
 
 <button
   style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
-  id="checkout-button-price_1KgXeNIDia3Xld45lclpiq4g"
+  id="checkout-button-price_1KgYqTIDia3Xld452swQ2DVq"
+  
   role="link"
   type="button">
 Checkout

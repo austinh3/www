@@ -25,16 +25,16 @@ Checkout
 
 <script>
 (function() {
-  var stripe = Stripe('pk_test_51IyOaHF5pJkDlNl6u2p3W7O28ax11j6ZBBZqBjWoCPgVVLWfVyEw7nun2dS503tVweXzKpf7nxJgVeBQvp5fNUoj00lIqQrwAE');
+  var stripe = Stripe('pk_test_3UDNMYAu7ExlFNyMrrUlZ9Ar');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1KcDuHF5pJkDlNl6aM2P7nOD');
+  var checkoutButton = document.getElementById('checkout-button-price_1KgXeNIDia3Xld45lclpiq4g');
   checkoutButton.addEventListener('click', function () {
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1KcDuHF5pJkDlNl6aM2P7nOD', quantity: 1}],
+      lineItems: [{price: 'price_1KgXeNIDia3Xld45lclpiq4g', quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
@@ -43,8 +43,8 @@ Checkout
        * Instead use one of the strategies described in
        * https://stripe.com/docs/payments/checkout/fulfill-orders
        */
-      successUrl: 'https://v2.austinh3.org/boatpartysuccess',
-      cancelUrl: 'https://v2.austinh3.org/canceled',
+      successUrl: 'http://austinh3.org/success',
+      cancelUrl: 'http://austinh3.org/canceled',
     })
     .then(function (result) {
       if (result.error) {
@@ -58,4 +58,4 @@ Checkout
     });
   });
 })();
-</script>
+</script>   

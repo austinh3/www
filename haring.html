@@ -5,78 +5,159 @@ show_sidebar: true
 title: Sign up to Hare
 subtitle: Propose your trial deets
 ---
-{% capture my_include %}{% include haring-1.md %}{% endcapture %}
-{{ my_include | markdownify }}
+
+{% capture my_include %}{% include haring-1.md %}{% endcapture %} {{ my_include
+| markdownify }}
 
 <form id="hare-form">
   <div class="field">
     <label for="hash-name" class="label">Hash name *</label>
-    <p>Enter your hash name or "Just (FirstName)." As the hare who is booking the event, you will be considered the 'primary hare.'</p>
+    <p>
+      Enter your hash name or "Just (FirstName)." As the hare who is booking the
+      event, you will be considered the 'primary hare.'
+    </p>
     <div class="control">
-      <input class="input" type="text" placeholder="Enter hash name" id="hash-name" name="entry.1040064938" required>
+      <input
+        class="input"
+        type="text"
+        placeholder="Enter hash name"
+        id="hash-name"
+        name="entry.1040064938"
+        required
+      />
     </div>
   </div>
 
   <div class="field">
     <label for="your-email" class="label">Email *</label>
-    <p>We need your e-mail to send you information and expectations as a hare.</p>
+    <p>
+      We need your e-mail to send you information and expectations as a hare.
+    </p>
     <div class="control">
-      <input class="input" type="email" placeholder="hasher@example.com" id="your-email" name="entry.341411850" required>
+      <input
+        class="input"
+        type="email"
+        placeholder="hasher@example.com"
+        id="your-email"
+        name="entry.341411850"
+        required
+      />
     </div>
   </div>
 
   <div class="field">
     <label for="co-hare" class="label">Co-Hare's name</label>
-    <p>If you have not hashed in Austin before, you need an Austin-based sponsor. Please list that person here. And or any co-hares you have.</p>
+    <p>
+      If you have not hashed in Austin before, you need an Austin-based sponsor.
+      Please list that person here. And or any co-hares you have.
+    </p>
     <div class="control">
-      <input class="input" type="text" placeholder="Enter Co-hare's name" id="co-hare" name="entry.955394723">
+      <input
+        class="input"
+        type="text"
+        placeholder="Enter Co-hare's name"
+        id="co-hare"
+        name="entry.955394723"
+      />
     </div>
   </div>
 
   <div class="field">
     <label for="hash-date" class="label">Hash date *</label>
-      <p>Select the Sunday that you want to hare. <a href="/calendar/">Please check the calendar first</a> to make sure it's available.</p>
-     <div class="control">
-       <input class="input" type="date" min="08/01/2021" max="01/20/2025"  placeholder="MM/DD/YYYY" id="hash-date" name="entry.149787360" required> <small> Only Sundays.</small>
-     </div>
-   </div>
-
-   <div class="field">
-     <label for="hash-time" class="label">Hash start time *</label>
-        <p>Provide the time you want to post as the meeting time. Typically the pack will be let loose 30 mins later after chalk talk. You can change this later but please provide an estimate.</p>
-     <div class="control">
-      <input type="time" min="00:01" max="23:59" placeholder="HH:MM" id="hash-time" name="entry.886048885" required><small> Typically 4 hours before sunset.</small>
-     </div>
+    <p>
+      Select the Sunday that you want to hare.
+      <a href="/calendar/">Please check the calendar first</a> to make sure it's
+      available.
+    </p>
+    <div class="control">
+      <input
+        class="input"
+        type="date"
+        min="08/01/2021"
+        max="01/20/2025"
+        placeholder="MM/DD/YYYY"
+        id="hash-date"
+        name="entry.149787360"
+        required
+      />
+      <small> Only Sundays.</small>
+    </div>
   </div>
- 
+
+  <div class="field">
+    <label for="hash-time" class="label">Hash start time *</label>
+    <p>
+      Provide the time you want to post as the meeting time. Typically the pack
+      will be let loose 30 mins later after chalk talk. You can change this
+      later but please provide an estimate.
+    </p>
+    <div class="control">
+      <input
+        type="time"
+        min="00:01"
+        max="23:59"
+        placeholder="HH:MM"
+        id="hash-time"
+        name="entry.886048885"
+        required
+      /><small> Typically 4 hours before sunset.</small>
+    </div>
+  </div>
+
   <div class="field">
     <label for="hash-start" class="label">Start location</label>
-    <p>Enter an address, or leave blank if you don't know yet. Don't say "Such and such park". We need a street address on your start location in order to communicate it clearly to everyone and their GPS systems.</p>
+    <p>
+      Enter an address, or leave blank if you don't know yet. Don't say "Such
+      and such park". We need a street address on your start location in order
+      to communicate it clearly to everyone and their GPS systems.
+    </p>
     <div class="control">
-      <textarea class="textarea" placeholder="Street no, street name, city, zip, etc." id="hash-start" name="entry.855650909"></textarea>
+      <textarea
+        class="textarea"
+        placeholder="Street no, street name, city, zip, etc."
+        id="hash-start"
+        name="entry.855650909"
+      ></textarea>
     </div>
   </div>
 
   <div class="field">
     <label for="hash-deets" class="label">Hash Details</label>
-    <p>If you know what you want to say about your trail in the calendar event, put it here. If it's far in the future and you don't know, it's ok to leave this blank.</p> 
+    <p>
+      If you know what you want to say about your trail in the calendar event,
+      put it here. If it's far in the future and you don't know, it's ok to
+      leave this blank.
+    </p>
     <div class="control">
-      <textarea class="textarea" placeholder="Stuff to brag about your trail." id="hash-deets" name="entry.1610966465"></textarea>
+      <textarea
+        class="textarea"
+        placeholder="Stuff to brag about your trail."
+        id="hash-deets"
+        name="entry.1610966465"
+      ></textarea>
     </div>
   </div>
 
   <div class="field">
     <label for="jm-questions" class="label">Question or comments</label>
-    <p>The Joint Masters of Austin H3 will review your request and put your date on the calendar if accepted. If you have any other questions or concerns, put them here.</p>
+    <p>
+      The Joint Masters of Austin H3 will review your request and put your date
+      on the calendar if accepted. If you have any other questions or concerns,
+      put them here.
+    </p>
     <div class="control">
-      <textarea class="textarea" placeholder="Stuff on the down-low." id="jm-questions" name="entry.326879643"></textarea>
+      <textarea
+        class="textarea"
+        placeholder="Stuff on the down-low."
+        id="jm-questions"
+        name="entry.326879643"
+      ></textarea>
     </div>
   </div>
 
   <div class="control">
-    <button class="button is-link">Sign me up!</button>
+    <button class="button is-link" type="submit">Sign me up!</button>
   </div>
 </form>
 
-<div id="form-success">
-</div>
+<div id="form-success"></div>

@@ -1,3 +1,5 @@
+- name: Boat Party
+  link: /boatparty/
 - name: Calendar
   link: /calendar/
 - name: About
@@ -25,7 +27,5 @@
   link: /store/
 - name: Blog
   link: /blog/
-- name: Products
+- name: Pay
   link: /products/
-- name: Landing
-  link: /landing/

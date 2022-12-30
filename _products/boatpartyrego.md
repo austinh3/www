@@ -15,7 +15,8 @@ price: $49.99
 
 <button
   style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;cursor:pointer"
-  id="checkout-button-price_1KcDuHF5pJkDlNl6aM2P7nOD"
+  id="checkout-button-price_1KgYqTIDia3Xld452swQ2DVq"
+  
   role="link"
   type="button">
 Checkout
@@ -25,16 +26,16 @@ Checkout
 
 <script>
 (function() {
-  var stripe = Stripe('pk_test_51IyOaHF5pJkDlNl6u2p3W7O28ax11j6ZBBZqBjWoCPgVVLWfVyEw7nun2dS503tVweXzKpf7nxJgVeBQvp5fNUoj00lIqQrwAE');
+  var stripe = Stripe('pk_live_uDsxZWkDawiNBbQNNWAH1dy8');
 
-  var checkoutButton = document.getElementById('checkout-button-price_1KcDuHF5pJkDlNl6aM2P7nOD');
+  var checkoutButton = document.getElementById('checkout-button-price_1KgYqTIDia3Xld452swQ2DVq');
   checkoutButton.addEventListener('click', function () {
     /*
      * When the customer clicks on the button, redirect
      * them to Checkout.
      */
     stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1KcDuHF5pJkDlNl6aM2P7nOD', quantity: 1}],
+      lineItems: [{price: 'price_1KgYqTIDia3Xld452swQ2DVq', quantity: 1}],
       mode: 'payment',
       /*
        * Do not rely on the redirect to the successUrl for fulfilling
@@ -43,7 +44,7 @@ Checkout
        * Instead use one of the strategies described in
        * https://stripe.com/docs/payments/checkout/fulfill-orders
        */
-      successUrl: 'https://v2.austinh3.org/boatpartysuccess',
+      successUrl: 'https://v2.austinh3.org/success',
       cancelUrl: 'https://v2.austinh3.org/canceled',
     })
     .then(function (result) {
